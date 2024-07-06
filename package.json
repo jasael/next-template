@@ -2,13 +2,19 @@
   "name": "template",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "email": "programadorjp2001@gmail.com",
+    "name": "Jasael Palma",
+    "url": "https://github.com/jasael"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "next": "14.2.4",
@@ -18,7 +24,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.6",
     "@testing-library/react": "^16.0.0",
-    "@types/jest": "^29.5.12",
+    "@types/jest": "^29",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
@@ -29,5 +35,8 @@
     "node-notifier": "^10.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": "^20.15"
   }
 }
