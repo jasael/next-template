@@ -1,0 +1,7 @@
+{
+  "**/*.{ts,tsx}": [
+    "eslint --quiet --fix",
+    "prettier --write --ignore-unknown",
+    "git add ."
+  ]
+}

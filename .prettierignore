@@ -1,0 +1,13 @@
+# Ignore artifacts:
+build
+coverage
+tsconfig.json
+README.md
+next.config.mjs
+pnpm-lock.yaml
+package.json
+jest*
+commitlint*
+.prettierrc
+.lintstagedrc
+.eslintrc.json
